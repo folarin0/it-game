@@ -1,1 +1,18 @@
-<xml xmlns="https://developers.google.com/blockly/xml"><block type="pxt-on-start" id="S5Vatq)rMNYo`75)=HRH" x="0" y="0"></block></xml>
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable type="KIND_SpriteKind" id="[4`5srl:6%-t*`ZkX6:o">Player</variable><variable type="KIND_SpriteKind" id="iFS~RN65Q^0+,L{VZwK{">Projectile</variable><variable type="KIND_SpriteKind" id="m#[`DQRO$A)*@rT=^mGW">Food</variable><variable type="KIND_SpriteKind" id="s=`{vmJq}x+YZZ3rASyz">Enemy</variable><variable id="Q]J)C%?AOX^R%yAaSoqn">mySprite</variable><variable id="1~?!SI@Dk@P97@]=H_sh">hops and paw</variable></variables><block type="pxt-on-start" id="S5Vatq)rMNYo`75)=HRH" x="0" y="0"><statement name="HANDLER"><block type="gamesetbackgroundcolor" id="0(9-eB8B{0g5M:wP35H/"><value name="color"><shadow type="colorindexpicker" id="9R3:QQ7Kq#=iL-n$.V~@"><field name="index">9</field></shadow></value><next><block type="variables_set" id="07tDgDTpn`Y(%/..?lZN"><field name="VAR" id="1~?!SI@Dk@P97@]=H_sh">hops and paw</field><value name="VALUE"><shadow xmlns="http://www.w3.org/1999/xhtml" type="math_number"><field name="NUM">0</field></shadow><block type="spritescreate" id="@aK@Hxg!snTy-qZdag9a"><value name="img"><shadow type="screen_image_picker" id="-g6;yy3bUaP!d~p_8RG~"><field name="img">img`
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . 2 2 . 
+. . . . . . . . . . . . . 2 2 2 
+. . . . . . . . . . . . . 2 3 2 
+2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 
+. . . . 2 2 2 2 2 2 2 2 2 2 . . 
+. . . . 2 2 2 2 2 2 2 2 2 2 . . 
+. . . . 2 . 2 . . . . 2 . 2 . . 
+. . . . 2 . 2 . . . . 2 . 2 . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+`</field><data>{"commentRefs":[],"fieldData":{"img":"-g6;yy3bUaP!d~p_8RG~"}}</data></shadow></value><value name="kind"><shadow type="spritekind" id="BV4rg_ymh2rTOe)qL{;]"><field name="MEMBER">Player</field></shadow></value></block></value><next><block type="game_control_sprite" id="Ue=*@Zmzz0/:b-7k%h=Q"><mutation xmlns="http://www.w3.org/1999/xhtml" _expanded="0" _input_init="true"></mutation><value name="sprite"><block type="variables_get" id="L$gj97sot`pG-e+trFSh"><field name="VAR" id="1~?!SI@Dk@P97@]=H_sh">hops and paw</field></block></value><value name="vx"><shadow type="spriteSpeedPicker" id="7hg`KOwbY1@.$CUNHR$L"><field name="speed">100</field></shadow></value><value name="vy"><shadow type="spriteSpeedPicker" id="a7rGj9p:mZ0WlZw/?j5k"><field name="speed">100</field></shadow></value><next><block type="set_current_tilemap" id="{E[OMGdG:4ST:@nU1/{G"><value name="tilemap"><shadow type="tiles_tilemap_editor" id="}FexElvi*?6o(fBQ3=71"><field name="tilemap">tilemap`level1`</field><data>{"commentRefs":[],"fieldData":{"tilemap":"level1"}}</data></shadow></value></block></next></block></next></block></next></block></statement></block></xml>
